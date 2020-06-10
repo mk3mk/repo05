@@ -32,7 +32,7 @@ define( 'DB_PASSWORD', 'admin_testo' );
 define( 'DB_HOST', 'localhost' );
 
 /** Кодировка базы данных для создания таблиц. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define( 'DB_COLLATE', '' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'впишите сюда уникальную фразу' );
-define( 'SECURE_AUTH_KEY',  'впишите сюда уникальную фразу' );
-define( 'LOGGED_IN_KEY',    'впишите сюда уникальную фразу' );
-define( 'NONCE_KEY',        'впишите сюда уникальную фразу' );
-define( 'AUTH_SALT',        'впишите сюда уникальную фразу' );
-define( 'SECURE_AUTH_SALT', 'впишите сюда уникальную фразу' );
-define( 'LOGGED_IN_SALT',   'впишите сюда уникальную фразу' );
-define( 'NONCE_SALT',       'впишите сюда уникальную фразу' );
+define( 'AUTH_KEY',         'O<K.%iAQYAa~,4kmzC[ghl#]3~;6C0@Ktm!aS^,|gV89,yFx{P/>@5x_!Z3rN.&{' );
+define( 'SECURE_AUTH_KEY',  '87oo8FK1nn/&,@,J3a#z|wFS#G4%XFls9-LrK|k 10><G9}QDWx1ky5*hqW?;P+c' );
+define( 'LOGGED_IN_KEY',    'K6OqM5-$}G>Z7Y2d`?A]i?s;-EvT>$(-8FgkK;X#<f)S0ufNL,TyablzsC8VD+uB' );
+define( 'NONCE_KEY',        '`-^>|zc |&9 }1W5>:HSIrTlr;,l4zWV{8XmEzdjes7EegpMuBD4k*`2bwJ|++7|' );
+define( 'AUTH_SALT',        'v>9<3#zRpJ1JQU}:8(HyGd:/wRf7(t9g!xv/Qz{gR5V>W<RGd~Yb(/CQy.`IGd(5' );
+define( 'SECURE_AUTH_SALT', ']aY!Q#Xu9xa~A)<RL/A;Y5Xb9#PKD!*S?ty^lap:=s4UO~Ps<t@Dmie`AcSh-Fy,' );
+define( 'LOGGED_IN_SALT',   'e;7*{v/o:~|+/B|>ej#g8Y[E-[Ty.<wt-You6ZGF_48f/D0}VyIY|G-c)-ZlXUGi' );
+define( 'NONCE_SALT',       'w{. *,cbv8g$dTnM32/SD;;,4zg r_$BtFi{ ?M|#6:ywzLP_ZU}g[c(/}tE_K{,' );
 
 /**#@-*/
 
